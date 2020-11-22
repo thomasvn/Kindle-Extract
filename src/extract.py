@@ -36,7 +36,7 @@ class Extract():
 
 
 if __name__=="__main__":
-    e = Extract("../data/Essentialism.html")
+    e = Extract("../data/Mans-Search-for-Meaning.html")
     e.strip_html()
     e.clean_highlights()
     e.save_highlights_to_file()
